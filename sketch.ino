@@ -81,7 +81,7 @@ void updateThingSpeak(int waterLevel)
 
   char* CONNECTOR_TS = (char*) "rest"; //connector type
   char* SERVER_ADDR_TS = (char*) "api.thingspeak.com"; //API URL
-  char* APIKEY_TS = (char*) "VUXGZHCGOBZUFU6B"; //API Key for normal data submission
+  char* APIKEY_TS = (char*) "insertcorrectyAPIkey"; //API Key for normal data submission
 
   
   String uri = "/update?api_key=";
